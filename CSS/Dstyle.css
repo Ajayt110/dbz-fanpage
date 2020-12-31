@@ -1,0 +1,191 @@
+body
+{
+	background-color: #f5ba16;
+	font-family: Showcard gothic;
+	text-transform: uppercase;
+	margin: 0;
+    padding: 0;
+}
+
+.navi
+{
+	color: white;
+	display: inline;
+	background-color: darkgreen;
+	width: 100%;
+	height: 0px;
+
+}
+.navi a:hover
+{
+	background-color:white;
+	color: #520875;
+}
+.navi a
+{
+	display: block;
+	text-decoration: none;
+	color: white;
+	background-color:#520875;
+	padding: 10px;
+	border: 2px solid #8500c4;
+	border-bottom:none; 
+}
+.navi ul
+{
+
+	margin: 0;
+	padding: 0;
+}
+.navi li
+{
+margin-right: 5px;
+list-style: none;
+float: left;
+
+}
+header
+{
+	width: 100%;
+	max-height: 100px;
+	background-color: white;
+	vertical-align: top;
+	position: left;
+	margin: 0;
+    padding: 0;
+}
+.head-img
+{
+	margin-left: 20px;
+	margin-top: 0px;
+	width: 271; height:70px; 
+	
+}
+.head-title
+{
+	float: right;
+	color: purple;	
+	margin-right: 20px;
+}
+.head-title:hover
+{
+	
+	color: violet;	
+}
+/*Div 01 Home Page*/
+.div-01-img
+{
+	width: 100%;
+	box-shadow: 10px 2px 2px black;
+	height: 551px;
+}
+.div-01
+{
+	max-width: 100%;
+	object-fit: contain;
+}
+/*Div 02 Home Page*/
+.div-02
+{
+
+	max-height: 700px;
+	background-color: #520875;
+	font-color: white;
+}
+.div-02-img
+{
+	margin-top: 90px;
+}
+ul {
+  list-style-image: url('images/bullet.jpg');
+
+}
+.div-02-body
+{
+	float: right;
+	object-fit: contain;
+	margin-right: 125px;
+	margin-top: 180px;
+}
+input.submit:hover
+{
+	color: red;
+	background-color: white;
+}
+/*Div 03 Home Page*/
+.div-03
+{
+	max-height: 700px;
+	background-color: #f5ba16;
+	font-color: white;
+}
+.div-03-img
+{
+	margin-top: 70px;
+
+}
+.div-03-body
+{
+	float: right;
+	object-fit: contain;
+	margin-right: 200px;
+	margin-top: 150px;
+}
+input .submit:hover
+{
+	color: red;
+	background-color: white;
+}
+
+/*Div 04 Home Page*/
+.div-04
+{
+	max-height: 700px;
+	background-color: #18c2e6;
+	font-color: white;
+}
+.div-04-img
+{
+	margin-top: 70px;
+
+}
+.div-04-body
+{
+	float: right;
+	object-fit: contain;
+	margin-right: 100px;
+	margin-top: 120px;
+}
+.submit:hover
+{
+	color: red;
+	background-color: white;
+}
+.foot-img
+{
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+/*For Register Page*/
+.Register-Body
+{
+	height: 445px;
+	 background-image: url(../Images/BG.jpg);
+	 background-repeat: no-repeat;
+	 background-position: center left;
+	 background-size: cover;
+ 	 text-align: center;
+ 	 text-orientation: justify;
+ 	 object-fit: fill;
+}
+.con-info
+{
+	float: left;
+	width: 300px;
+	height: 300px;
+	background-color: orange;
+	color: black;
+	margin-top: 150px;
+	margin-right: 200px;
+	border-radius: 8px;
+}
